@@ -1,0 +1,14 @@
+<img src="./backg.png" alt="Background Image Example">
+
+<svg viewBox="0 0 100 100">
+    <circle cx="50" cy="50" r="40" fill="blue" stroke="black" stroke-width="3"/>
+  </svg>
+
+  <canvas id="myCanvas" width="200" height="100"></canvas>
+
+  <script>
+    const canvas = document.getElementById("myCanvas");
+    const ctx = canvas.getContext("2d");
+    ctx.fillStyle = "orange";
+    ctx.fillRect(20, 20, 160, 60);
+  </script>
